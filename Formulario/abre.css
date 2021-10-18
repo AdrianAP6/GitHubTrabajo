@@ -1,0 +1,10 @@
+<?php
+
+$conexion = new mysqli("localhost", "root", "","contactos");
+    if($conexion){
+        echo "La gestion fue exitosa !!";
+        header("Location: index.php");
+    }else{
+    echo "Fallo la gestion";
+    }
+?>

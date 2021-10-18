@@ -1,0 +1,18 @@
+*{
+    margin: 0; padding: 0;
+}
+
+input:focus {
+    background-color:darkgoldenrod;
+}
+
+html{
+    width: 750px; height: 750px;
+    background-color: black;
+}
+
+body{
+    width: 375px; height: 375px;
+    margin: auto; background-color: burlywood;
+    padding: 30px;
+}
